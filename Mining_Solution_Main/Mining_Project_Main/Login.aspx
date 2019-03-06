@@ -15,12 +15,44 @@
     <form id="form1" runat="server">
     <div>
         <table border="0">
-            <tr><td><asp:Label ID="Label1" runat="server" Text="Login Id" Width="100px"></asp:Label></td>
-                <td class="auto-style1"><asp:TextBox ID="TextBox1" runat="server" Width="100px"></asp:TextBox></td></tr>
-            <tr><td><asp:Label ID="Label2"  runat="server" Text="Password" Width="100px"></asp:Label></td>
-                <td class="auto-style1"><asp:TextBox TextMode="Password" ID="TextBox2" runat="server" Width="100px" ></asp:TextBox></td></tr>
-            <tr><td><asp:Button ID="Button1" runat="server"  Text="Login" OnClick="Button1_Click" Width="100px"/></td><td class="auto-style1"><asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="False" NavigateUrl="~/signup.aspx" Width="100px">Signup</asp:HyperLink></td></tr>
-            <tr><td rowspan="3"  ><a href="Home.aspx">Home</a></td></tr>
+            <tr>
+                <td>
+                    <asp:Label ID="loginidlbl" runat="server" Text="Login Id" Width="100px"></asp:Label>
+
+                </td>
+                <td class="auto-style1">
+                    <asp:TextBox ID="loginidtbx" f runat="server" Width="100px"></asp:TextBox>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="passlbl" runat="server" Text="Password" Width="100px"></asp:Label>
+
+                </td>
+                <td class="auto-style1">
+                    <asp:TextBox TextMode="Password" ID="passtbx" runat="server" Width="100px" ></asp:TextBox>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button1" runat="server"  Text="Login" OnClick="Button1_Click" Width="100px"/>
+
+                </td>
+                <td class="auto-style1">
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="False" NavigateUrl="~/signup.aspx" Width="100px">Signup</asp:HyperLink>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td rowspan="3"  >
+                    <a href="Home.aspx">Home</a>
+
+                </td>
+
+            </tr>
         </table>
         
     </div>
